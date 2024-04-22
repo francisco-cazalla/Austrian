@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px;
+}
+
+.round-link {
+    display: inline-block;
+    background-color:blanchedalmond; /* Color de fondo */
+    color: rgb(0, 0, 0); /* Color de texto */
+    border: none;
+    border-radius: 50%; /* Hacer el enlace redondo */
+    padding: 10px 20px; /* Ajustar el relleno según sea necesario */
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s; /* Agregar transiciones */
+}
+
+.round-link:hover {
+    background-color: #869287; /* Cambio de color al pasar el ratón */
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+}
+.title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+body{
+    background-image: url(/fotos/destruction-1929422.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    background-color:bisque; /* Color pastel para el fondo */
+    padding: 30px 0px; /* Espacio interno */
+    margin-top: 32px; /* Se pega al borde inferior */
+    height: 75px;
+    
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+.social-icons {
+    display: flex;
+    gap: 35px; /* Espacio entre los íconos */
+}
+
+i{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0 .35);
+    transition: .3s ease ;
+}
+.fa-instagram:hover{
+    background-color:violet ;
+    color: white;
+    box-shadow: 0 0 15px violet,
+                0 0 45px violet,
+                0 0 75px violet,
+                0 0 115px violet;
+}
+.fa-twitter:hover{
+    background-color:skyblue ;
+    color: white;
+    box-shadow: 0 0 15px skyblue,
+                0 0 45px skyblue,
+                0 0 75px skyblue,
+                0 0 115px skyblue;
+}
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ime{
+    font-size: 30px;
+    font-family:  "Italianno" ;
+}  
+
+.conteiner{
+    width: 1000px;
+    position: relative;
+    justify-content: space-between;
+}
+.conteiner .card{
+    position: relative;
+    cursor: pointer;
+}
+.card .box{
+    width: 300px;
+    height: 200px;
+    transition: .5s;
+}
+
+.card .box.box1{
+    position: relative;
+    height: 250px;
+    background:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 7;
+    transform:translateY(100px) ;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutile */
+    transition: transform 0.3s ease; /* Efecto de transición suave */
+    
+}
+.card:hover .box.box1{
+    opacity: 5 ;
+    transform: translateY(0);
+}
+.content img{
+    width: 100%;
+
+}
+.content h3{
+    position: relative;
+    top: -15px;
+    padding: 8px;
+    color: black;
+    background:transparent;
+    text-align: center;
+    font-size: 45px;
+    font-family:  "Italianno" ;
+    font-style:italic;
+}
+.card .box.box2{
+    position: relative;
+    background: rgb(231, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform:translateY(100px)
+}
+.card:hover .box.box2{
+    opacity: 5 ;
+    transform: translateY(0);
+    
+    
+}
+.content .icon{
+    color: #e7b309  ;
+    font-size: 20px;
+
+}
+
+.content p{
+    margin: 10px 0 0 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    background-color: bisque;
+    
+}
+.content a{
+    margin: 35px 15px 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    font-weight: 900;
+    padding: 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: bisque; /* Color de fondo pastel */
+    color: #333; /* Color del texto */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; /* Bordes redondeados */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.content a:hover{
+    background-color: #ca8f36; /* Cambia el color de fondo al pasar el ratón */
+  color: #fff; /* Cambia el color del texto al pasar el ratón */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+  transform: translateY(-3px); /* Efecto de elevación al pasar el ratón */
+}
+
+img{
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutile */
+    transition: transform 0.3s ease; /* Efecto de transición suave */
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    margin: 10px;
+    font-weight: 900;
+}
+.Texto{
+    margin-left: 3px;
+}
+
+@media (max-width:700px){
+
+    body{
+
+        
+        justify-content: space-between;
+        
+    }
+    .container{
+        display: inline;
+        padding: 45px;
+        margin: 35px;
+    }
+    .card{
+        margin: 70px;
+    }
+    .footer{
+        background-color:bisque; /* Color pastel para el fondo */
+    padding: 150px ; /* Espacio interno */
+    margin-top: 20px; /* Se pega al borde inferior */
+    height: 60px;
+    }
+}
