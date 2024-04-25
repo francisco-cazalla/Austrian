@@ -3,6 +3,9 @@
     padding: 0;
     
 }
+
+
+
 header{
     background-color: bisque;
     display: flex;
@@ -10,6 +13,8 @@ header{
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 15px;
+    margin-right: 0;
+    
 }
 .round-link {
     display: inline-block;
@@ -31,7 +36,7 @@ header{
 }
 .title2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
 }
 .title{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -51,7 +56,7 @@ body{
 }
 .content {
     display: flex;
-    padding: 20px;
+    padding: 90px;
 }
 
 img {
@@ -70,14 +75,13 @@ img:hover {
     border: 2px solid black; /* Bordes negros */
     background-color: burlywood; /* Color pastel */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
-    padding: 10px 200px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+    padding: px 50px 100px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
     margin-left: 20px; /* Espacio entre la imagen y el texto */
     border-radius: 20px; /* Borde redondeado */
-    font-family: "Italianno" ;
-    overflow:hidden;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     transition: all 0.3s ease; /* Transición suave */
-    height: 350px;
+    height: 500px;
+    width: 1200px;
 }
 
 
@@ -85,16 +89,17 @@ img:hover {
     transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el ratón por encima */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7); /* Sombra más pronunciada */
 }
-.title2 {
+.title3 {
     text-align: center; /* Centra el título */
-    font-size: 40px;
+    font-size: 55px;
 
     
 }
 .Texto {
-    text-align: left; /* Alinea el texto a la izquierda */
-    font-size: 60px;
-    font-family: "Italianno"; /* Estilo de fuente italiano */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 50px;
+    padding: 15px;
+    
     
 }
 
@@ -103,6 +108,10 @@ img:hover {
     margin-right: 5px; /* Espacio entre el punto y el texto */
 }
 }
+
+
+
+
 
 @media (min-width:700px){
 
@@ -202,6 +211,12 @@ i{
     font-style: normal;
 }
 
+.derechos{
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
 .ime{
     font-size: 30px;
     font-family:  "Italianno" ;
@@ -214,13 +229,83 @@ i{
     padding: 60px;
     margin-right: 100px;
     margin-left: 100px;
-    
+    margin: 40px;
+    border: 2px solid black; /* Bordes negros */
+    background-color: burlywood; /* Color pastel */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    padding: px 50px 100px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 20px; /* Borde redondeado */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    transition: all 0.3s ease; /* Transición suave */
 }
 .tit2{
     font-size: 100px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+@media (max-width:1525px){
+    .description {
+        border: 2px solid black; /* Bordes negros */
+        background-color: burlywood; /* Color pastel */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+        padding: px 50px 100px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+        border-radius: 20px; /* Borde redondeado */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        transition: all 0.3s ease; /* Transición suave */
+        height: 550px;
+        width: 650px;
+    }
+    .Texto {
+        text-align: center; /* Alinea el texto al centro */
+        font-size: 35px;
+        padding: 15px;
+        }
+        
+}
+
+@media (max-width:1155px){
+    .description {
+        border: 2px solid black; /* Bordes negros */
+        background-color: burlywood; /* Color pastel */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+        padding: px 50px 100px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+        border-radius: 20px; /* Borde redondeado */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        transition: all 0.3s ease; /* Transición suave */
+        height: 550px;
+        width: 450px;
+    }
+    .Texto {
+        text-align: center; /* Alinea el texto al centro */
+        font-size: 30px;
+        padding: 15px;
+}
+}
+
+
+@media (max-width:977px){
+    .description {
+        border: 2px solid black; /* Bordes negros */
+        background-color: burlywood; /* Color pastel */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+        padding: px 50px 100px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+        border-radius: 20px; /* Borde redondeado */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        transition: all 0.3s ease; /* Transición suave */
+        height: 610px;
+        width: 400px;
+    }
+    .Texto {
+        text-align: center; /* Alinea el texto al centro */
+        font-size: 25px;
+        padding: 15px;
+}
 }
 
 @media (max-width:700px){
@@ -231,44 +316,54 @@ i{
         margin-right: 5px;
         
     }
-    
-    .grid-container{
-        padding: 30px;
-        
-        display: inline;
-        padding: 25px;
-        margin-top: auto;
-        
-        display: contents;
-        
-        
-        margin-left: 40px;
-        
-        width: 1px;
-        
+
+    .grid-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    
+    
+
+
+
     .content{
-        display: inline;
+        flex-direction: column;
         margin: auto;
-        padding: 40px
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
 
     }
     img{
         height: 500px;
         margin: 15px;
+        width: 20px;
         
         
         
     }
     .description{
-        font-size: 35px;
+        margin-right: 15px;
+        font-size: 27px;
         font-weight: 10000;
         text-align: center;
-        height: 500px;
-    }
+        border: 2px solid black; /* Bordes negros */
+        background-color: burlywood; /* Color pastel */
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+        padding: px 10px 200px; /* Ajusta los márgenes internos (arriba/abajo, izquierda/derecha) */
+        margin-left: 20px; /* Espacio entre la imagen y el texto */
+        border-radius: 20px; /* Borde redondeado */
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        overflow:hidden;
+        transition: all 0.3s ease; /* Transición suave */
+        height: 400px;
+        width: 400px;
+    
+}
     .main{
-        display: inline;
+        
         padding: 20px;
         
     }
@@ -285,8 +380,9 @@ i{
     margin-right: 5px;
     }
     img#foto{
-        margin: 5px;
-        width: 300px;
+        display: flex;
+        
+        
     }
 
     .tet{
@@ -296,8 +392,9 @@ i{
     .tit2{
         font-size: 50px;
     }
-    
 }
+    
+
 
 .product-page {
     display: flex;
@@ -383,12 +480,11 @@ i{
 
 @media (max-width:700px){
     
-    .main{
-        display: inline;
-    }
-    
     img{
-        width: 550px;
+        flex-direction: column;
+        width: 310px;
+        justify-content: center;
+        align-items: center;
     }
     head{
         flex-direction: column;
@@ -471,6 +567,35 @@ i{
     height: 100%;
     border-radius: 10px;
 }
+
+.faq-section {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question h3 {
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .question p {
+    font-size: 16px;
+    color: #666;
+  }
 
 
 
